@@ -5,7 +5,7 @@ x509 is a tool to print commonly useful fiels in an X.509 certificate
 ## Build
 
 ```bash
-$ go build
+$ go install
 ```
 
 ## Run
