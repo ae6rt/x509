@@ -14,7 +14,7 @@ $ go install
 $ x509 -h
 Usage of x509:
   -cert string
-    	File containing one PEM encoded X.509 certificate.
+    	File containing one PEM encoded X.509 certificate. (default "-")
 ```
 
 ```bash

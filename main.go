@@ -15,7 +15,7 @@ import (
 
 // Print useful certificate fields without openssl-x509 fuss.
 func main() {
-	certFile := flag.String("cert", "-", "File containing one PEM encoded X.509 certificate.  Defaults to standard input.")
+	certFile := flag.String("cert", "-", "File containing one PEM encoded X.509 certificate.")
 	flag.Parse()
 
 	var f io.Reader
