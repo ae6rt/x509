@@ -52,4 +52,7 @@ func main() {
 	fmt.Printf("Issuer:\t\t%s\n", cert.Issuer.CommonName)
 	fmt.Printf("Subject Key:\t%s\n", strings.ToUpper(hex.EncodeToString(cert.SubjectKeyId)))
 	fmt.Printf("Authority Key:\t%s\n", strings.ToUpper(hex.EncodeToString(cert.AuthorityKeyId)))
+	fmt.Printf("DNS Names:\t%s\n", cert.DNSNames)
+	fmt.Printf("IPAddresses:\t%s\n", cert.IPAddresses)
+
 }
